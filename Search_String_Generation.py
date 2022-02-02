@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 __author__ = 'Matiss Ozols'
-__date__ = '2019-11-19'
+__date__ = '2020-11-19'
 __version__ = '0.0.1'
 
 import pandas as pd
@@ -17,9 +17,9 @@ Parameter4=["NOT 'Epidermal growth factor'"]
 
 def main():
     print('ļets do some PCA')
-    Dataset = pd.read_csv("Protease_Proteome/Recourses/MEROPS_FINAL.csv",header=None)
-    Uniprot_Dataset = pd.read_csv("Protease_Proteome/Recourses/All_Uniprot_IDs.csv",header=None)
-    Uniprot_Names = pd.read_csv("Protease_Proteome/Recourses/Protein_Names.csv",header=None)
+    Dataset = pd.read_csv("Recourses/MEROPS_FINAL.csv",header=None)
+    Uniprot_Dataset = pd.read_csv("Recourses/All_Uniprot_IDs.csv",header=None)
+    Uniprot_Names = pd.read_csv("Recourses/Protein_Names.csv",header=None)
     print('Search Strings Generated')
     Dataset_UID=Dataset.loc[:,3]
     Search_UIDs = []
