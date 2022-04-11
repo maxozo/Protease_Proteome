@@ -1,6 +1,6 @@
 # Protease_Proteome
 
-https://github.com/maxozo/Protease_Proteome/blob/main/assets/MPP.png
+
 # ![Protease Proteome](assets/MPP.png)
 
 Here we have deposited code to generate the Search Strings used for the systematic literature review of Protease Proteome deposited on the https://www.manchesterproteome.manchester.ac.uk/#/Protease_Proteome 
